@@ -64,3 +64,32 @@ button{
   font-size: 15px;
   font-family: 'Lexend Deca', sans-serif;
 }
+
+@media(min-width:790px){
+  body{
+    max-width: 1200px;
+    padding: 25px;
+  }
+ main{
+  display: flex;
+  max-width: 920px;
+  height: 500px;
+ }
+ .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+ }
+ .sedans{
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 12px;
+}
+.luxury{
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 12px;
+}
+ button{
+  padding: 10px 30px;
+}
+}
